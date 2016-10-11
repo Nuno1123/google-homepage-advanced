@@ -1,4 +1,4 @@
-Google Home Page Project From The Odin Project's Hard Version[curriculum](http://www.theodinproject.com/web-development-101/html-css)
+Google Home Page Project From The Odin Project's Hard Version [curriculum](http://www.theodinproject.com/web-development-101/html-css)
 =========================
 
 This project is a webpage recreation exercise from The Odin Project's online course on html/css - web development.
