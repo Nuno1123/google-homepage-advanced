@@ -85,6 +85,8 @@ input[type=text]:focus{
 #special_nav_bar {
 	border-bottom: solid 3px #438ecc;
 	padding-bottom: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
 	color: #438ecc;
 }
 
@@ -112,10 +114,32 @@ input[type=text]:focus{
 	float: left;
 }
 
+.results {
+	margin-left: 100px;
+	padding-bottom: 20px;
+	width: 600px;
+}
+
 .down {
 	clear: both;
 }
 
 .footer {
 	clear: both;
+}
+
+.title {
+	color: darkblue;
+	font-size: 18px;
+}
+
+.link {
+	color: green;
+	font-size: 14px;
+}
+
+
+.text {
+	color:#707070;
+	font-size: 12px;
 }
