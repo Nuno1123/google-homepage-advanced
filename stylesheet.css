@@ -116,7 +116,7 @@ input[type=text]:focus{
 
 .results {
 	margin-left: 100px;
-	padding-bottom: 20px;
+	padding-bottom: 17px;
 	width: 600px;
 }
 
@@ -129,17 +129,32 @@ input[type=text]:focus{
 }
 
 .title {
-	color: darkblue;
-	font-size: 18px;
+	color: #062c9e;
+	font-size: 19px;
 }
 
 .link {
-	color: green;
+	color: #016024;
 	font-size: 14px;
 }
 
 
 .text {
-	color:#707070;
+	color: #707070;
 	font-size: 12px;
+}
+
+.down {
+	clear: both;
+	float: left;
+}
+
+.footer_logo {
+	float: left;
+	margin-top: -20px;
+	margin-left: 130px;
+	padding-top: 35px;
+	padding-left: 170px;
+	padding-right: 170px;
+	border-top: solid 1px #ccc;
 }
