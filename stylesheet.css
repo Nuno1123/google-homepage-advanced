@@ -20,6 +20,8 @@ body {
 
 .header {
 	background-color: #eaeaea;
+
+	border-bottom: solid 1px #dddddd;
 	height: 60px;
 	width: 100%;
 }
@@ -71,7 +73,7 @@ input[type=text]:focus{
 
 .sub-header {
 	clear: both;
-	border-bottom: solid 1px #eaeaea;
+	border-bottom: solid 1px #dddddd;
 	height: 60px;
 	width: 100%;
 }
@@ -97,11 +99,6 @@ input[type=text]:focus{
 	font-size: 13px;
 }
 
-.results_data {
-	clear: both;
-	float: left;
-}
-
 .results_data p {
 	margin-left: 140px;
 	margin-top: 38px;
@@ -109,7 +106,7 @@ input[type=text]:focus{
 	color: #707070;
 }
 
-.search_results {
+.search_results, .footer, .results_data {
 	clear: both;
 	float: left;
 }
@@ -120,15 +117,7 @@ input[type=text]:focus{
 	width: 600px;
 }
 
-.down {
-	clear: both;
-}
-
-.footer {
-	clear: both;
-}
-
-.title {
+.title a {
 	color: #062c9e;
 	font-size: 19px;
 }
@@ -147,14 +136,83 @@ input[type=text]:focus{
 .down {
 	clear: both;
 	float: left;
+	margin-top: -20px;
+	margin-left: 130px;
+	border-top: solid 1px #ccc;
+	padding-top: 55px;
+	width: 620px;
 }
 
 .footer_logo {
 	float: left;
 	margin-top: -20px;
-	margin-left: 130px;
-	padding-top: 35px;
-	padding-left: 170px;
-	padding-right: 170px;
-	border-top: solid 1px #ccc;
+	margin-left: 145px;
+
+
+}
+
+.next_arrow {
+	float: left;
+	margin-left: 30px;
+	margin-top: -15px;
+}
+
+.pages {
+	clear: both;
+	float: left;
+	margin-left: 150px;
+}
+
+.pages_number li{
+	float: left;
+	font-size: 12px;
+	margin-top: -10px;
+	margin-left: 10px;
+}
+
+.pages_number li a {
+	color: #438ecc;
+}
+
+.next_page {
+	float: left;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-left: 60px;
+}
+
+.next_page a {
+	color: #438ecc;
+}
+
+.footer {
+	background-color: #eaeaea;
+	bottom: 0px;
+	width: 100%;
+	margin-top: 30px;
+	border-top: solid 1px #dddddd;
+}
+
+.localization {
+	float: left;
+	list-style-type: inherit;
+	margin-left: 120px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.localization li {
+	font-size: 12px;
+	color: #8c8c8c;
+}
+
+.footer_links {
+	margin-left: -80px;
+	margin-top: 20px;
+}
+
+.footer_links li {
+	float: left;
+	margin-left: 20px;
+	font-size: 13px;
 }
